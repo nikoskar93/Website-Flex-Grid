@@ -155,4 +155,22 @@ section {
     .container {
         grid-template-columns: 100%;
     }
+
+    nav li {
+        text-align: center;
+    }
+
+    .hamb-line {
+        display: block;
+    }
+
+    nav.active {
+        display: none;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
 }
